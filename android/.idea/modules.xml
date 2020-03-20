@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="android/app" />
+      <module fileurl="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/camera-0.4.3+2/android/camera.iml" filepath="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/camera-0.4.3+2/android/camera.iml" group="android/camera" />
+    </modules>
+  </component>
+</project>
