@@ -141,7 +141,7 @@ class DrawObjects extends CustomPainter {
               background: paint,
               fontWeight: FontWeight.bold,
               fontSize: 14),
-          text: " " + value[1] +" " + value[6] +" % ");
+          text: " " + value[1] + " " + (double.parse(value[6])*100).toStringAsFixed(2) +" % ");
       TextPainter tp = new TextPainter(text: span, textAlign: TextAlign.left,
           textDirection: TextDirection.ltr);
       tp.layout();
