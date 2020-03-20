@@ -1,16 +1,9 @@
-# realtimeod
+# Real-time Object Detector
 
-A real-time object detector based on Paddle-lite.
+这是一款基于[Paddle-Lite](https://github.com/paddlepaddle/paddle-lite)的实时目标检测App，使用Flutter开发，模型默认支持的是YOLO v3。
 
-## Getting Started
+详细介绍位置：[**基于Paddle-Lite的实时目标检测程序(Flutter & YOLO v3) | ∞.link**](https://sourl.cn/CxETdD)
 
-This project is a starting point for a Flutter application.
+Demo截图：
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot](imgs/20200320202515.jpg)
