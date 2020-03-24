@@ -11,7 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/camera-0.4.3+2/android" />
+            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/camera-0.5.7+4/android" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -4,6 +4,8 @@
 
 详细介绍位置：[**基于Paddle-Lite的实时目标检测程序(Flutter & YOLO v3) | ∞.link**](https://sourl.cn/CxETdD)
 
+English tutorial:  [Real-time Object Detection on Android using Paddle-Lite | ∞.link](https://sourl.cn/rznmai)
+
 Demo截图：
 
-![Screenshot](imgs/20200320202515.jpg)
+![Screenshot](imgs/20200324184756.jpg.jpg)

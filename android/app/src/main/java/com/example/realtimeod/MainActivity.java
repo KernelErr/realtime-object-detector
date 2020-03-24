@@ -33,12 +33,12 @@ public class MainActivity extends FlutterActivity {
   private RenderScript rs;
 
   // Model settings of object detection
-  protected String modelPath = "models/mask";
-  protected String labelPath = "labels/mask_label_list";
+  protected String modelPath = "models/fruit";
+  protected String labelPath = "labels/fruit_label_list";
   protected int cpuThreadNum = 8;
   protected String cpuPowerMode = "LITE_POWER_FULL";
   protected String inputColorFormat = "RGB";
-  protected long[] inputShape = new long[]{1, 3, 320, 320};
+  protected long[] inputShape = new long[]{1, 3, 608, 608};
   protected float[] inputMean = new float[]{0.485f, 0.456f, 0.406f};
   protected float[] inputStd = new float[]{0.229f, 0.224f, 0.225f};
   protected float scoreThreshold = 0.5f;

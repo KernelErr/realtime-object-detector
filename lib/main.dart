@@ -124,8 +124,8 @@ class DrawObjects extends CustomPainter {
     keyCameraPreview.currentContext.findRenderObject();
     final sizeRed = renderPreview.size;
 
-    var ratioW = sizeRed.width / 320;
-    var ratioH = sizeRed.height / 320;
+    var ratioW = sizeRed.width / 608;
+    var ratioH = sizeRed.height / 608;
     for (var value in values) {
       var index = value[0];
       Paint paint = new Paint();
