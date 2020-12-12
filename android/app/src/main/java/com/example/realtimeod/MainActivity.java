@@ -27,7 +27,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class MainActivity extends FlutterActivity {
-  private static final String CHANNEL = "inf.link/paddlelite";
+  private static final String CHANNEL = "paddlelite";
   private static boolean modalLoaded = false;
   protected static Predictor predictor = new Predictor();
   private RenderScript rs;

@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:camera/camera.dart';
@@ -20,7 +19,7 @@ Future<void> main() async {
 
 Future<Null> _loadModel() async {
   try {
-    const platform = const MethodChannel('inf.link/paddlelite');
+    const platform = const MethodChannel('paddlelite');
     final String result = await platform.invokeMethod('loadModel');
     print(result);
   } on PlatformException catch (e) {

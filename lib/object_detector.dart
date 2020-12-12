@@ -1,8 +1,6 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter/services.dart';
-import 'dart:math';
 
 class ObjectDetector extends ValueNotifier<List> {
   ObjectDetector._() : super(null);
@@ -10,7 +8,7 @@ class ObjectDetector extends ValueNotifier<List> {
   static CameraController _controller;
 
   static bool _isDetecting = false;
-  static const platform = const MethodChannel('inf.link/paddlelite');
+  static const platform = const MethodChannel('paddlelite');
 
   static final ObjectDetector instance = ObjectDetector._();
   void init(CameraController controller) async {
